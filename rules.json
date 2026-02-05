@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "X-Interceptado-Por",
+                    "operation": "set",
+                    "value": "Gemini-Code-Assist"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "*",
+            "resourceTypes": [
+                "main_frame",
+                "xmlhttprequest",
+                "sub_frame"
+            ]
+        }
+    }
+]
