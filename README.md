@@ -301,5 +301,5 @@ WebSentinel/
 
 ---
 
-**WebSentinel** © 2024 - Advanced Web Security Testing  
+**WebSentinel** © 2025 - Advanced Web Security Testing  
 *For authorized security testing only*
